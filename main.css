@@ -1,0 +1,21 @@
+
+
+.giant {
+
+	font-size: 36px;
+}
+
+.box {
+	height: 400px;
+	width: 600px;
+	position: fixed;
+	margin-right: auto;
+	margin-left: 25%;
+	vertical-align: center;
+	background-color: red;
+	text-align: center;
+}
+
+.box-button {
+	padding: 10px 15px 10px 15px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="module1">
+<head>
+	<title>Angular</title>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body ng-controller="modcontroller">
+
+
+		<h1>Paragraph Title{{excited}}</h1>
+		<p ng-mouseenter="change(1)" ng-mouseleave="changeback(1)" style={{color}}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+		<a ng-hide="visible" ng-click="confirm()" href="index.html5">Search</a>
+
+		<p ng-mouseenter="changes()" ng-mouseleave="changebacks()" style={{color2}}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+
+
+
+		<button class="giant" ng-click="boxclick()">Giant Button</button>
+
+		<div class="box" ng-show="popup">
+			<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+			<button class="box-button" ng-click="boxbutton()">Close</button>
+		</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
